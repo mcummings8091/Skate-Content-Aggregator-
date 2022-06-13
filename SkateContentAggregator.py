@@ -21,7 +21,7 @@ def get_content_string(url):
         for link in container:
             list_of_links.append(str(link))
     for link in list_of_links:
-        print(link[9:])
+        print(link[9:-4])
 
 
 print("Welcome to the Skate news aggregator!"
